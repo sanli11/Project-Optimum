@@ -1,8 +1,8 @@
 const floatingButton = document.querySelector("#floating-button");
 
-const facebook = document.querySelector("#facebook");
-const twitter = document.querySelector("#twitter");
-const instagram = document.querySelector("#instagram");
+const facebookTop = document.querySelector("#facebook");
+const twitterTop = document.querySelector("#twitter");
+const instagramTop = document.querySelector("#instagram");
 
 const allServices = document.querySelector("#view-services");
 const allProjects1 = document.querySelector("#view-projects");
@@ -12,6 +12,10 @@ const address = document.querySelector("#address");
 const email = document.querySelector("#email");
 const phone = document.querySelector("#phone");
 
+const facebookBottom = document.querySelector("#fb");
+const twitterBottom = document.querySelector("#tw");
+const instagramBottom = document.querySelector("#ig");
+
 const submit = document.querySelector("#submit");
 
 floatingButton.addEventListener("click", () => {
@@ -19,15 +23,15 @@ floatingButton.addEventListener("click", () => {
   name.focus();
 });
 
-facebook.addEventListener("click", () => {
+facebookTop.addEventListener("click", () => {
   window.open("https://www.facebook.com", "_blank");
 });
 
-twitter.addEventListener("click", () => {
+twitterTop.addEventListener("click", () => {
   window.open("https://www.twitter.com", "_blank");
 });
 
-instagram.addEventListener("click", () => {
+instagramTop.addEventListener("click", () => {
   window.open("https://www.instagram.com", "_blank");
 });
 
@@ -53,6 +57,18 @@ email.addEventListener("click", () => {
 
 phone.addEventListener("click", () => {
   window.open("tel:+1-888-405-8908", "_blank");
+});
+
+facebookBottom.addEventListener("click", () => {
+  window.open("https://www.facebook.com", "_blank");
+});
+
+twitterBottom.addEventListener("click", () => {
+  window.open("https://www.twitter.com", "_blank");
+});
+
+instagramBottom.addEventListener("click", () => {
+  window.open("https://www.instagram.com", "_blank");
 });
 
 submit.addEventListener("click", () => {

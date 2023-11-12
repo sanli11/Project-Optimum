@@ -12,6 +12,19 @@
     color: white;
     min-width: 680px;
   }
+
+  #floating-button {
+    right: 1.25rem;
+  }
+
+  .background {
+    background-image: url(images/SpaceJoy-mobile.jpg);
+  }
+
+  .header {
+    padding-top: 1.5rem;
+    background-color: #121212;
+  }
 }
 
 body {
